@@ -33,10 +33,10 @@ Following are the points we assume about the problem statement and the system it
 ## Methodology:
 
 We iteratively design the system using the following strategy:
-We first analyze the performance metrics of our system under normal load and a heavy load to obtain a benchmark.
-Inject chaos into the system and obtain relevant performance metrics.
-Design load shedding strategies to improve performance and availability.
-Measure the performance of these strategies under various kinds of chaos(network delays, limited replicas, etc).
+1. We first analyze the performance metrics of our system under normal load and a heavy load to obtain a benchmark.
+2. Inject chaos into the system and obtain relevant performance metrics.
+3. Design load shedding strategies to improve performance and availability.
+4. Measure the performance of these strategies under various kinds of chaos(network delays, limited replicas, etc).
 
 ## Strategies:
 
