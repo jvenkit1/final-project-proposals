@@ -22,13 +22,13 @@ To understand our solution, we must gloss over the following headings:
 
 ## Assumptions:
 
-Following are the points we assume about the problem statement and the system itself:
-We have non-byzantine clients:
-These clients do not cause a Denial of Service on the system.
-When provided with a backoff time, they respond with another HTTP request only after the backoff time has expired.
-Clients provide correct information about the system.
-Load Shedding strategies have a minimal overhead on the system:
-They do not cause latencies when the overall load is minimal.
+Following are the points we assume about the problem statement and the system itself:<br>
+1. We have non-byzantine clients: <br>
+  a. These clients do not cause a Denial of Service on the system. <br>
+  b. When provided with a backoff time, they respond with another HTTP request only after the backoff time has expired. <br>
+  c. Clients provide correct information about the system. <br>
+3. Load Shedding strategies have a minimal overhead on the system: <br>
+  a. They do not cause latencies when the overall load is minimal.<br>
 
 ## Methodology:
 
